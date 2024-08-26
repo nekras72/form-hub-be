@@ -1,4 +1,7 @@
 {
-  "typescript.tsdk": "node_modules\\typescript\\lib",
-  "prettier.configPath": ""
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "prettier.configPath": "",
+  "triggerTaskOnSave.tasks": {
+    "restart web": ["apps/backend/**/*"]
+  }
 }
